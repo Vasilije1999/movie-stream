@@ -3,10 +3,6 @@ require_once "functions.php";
 $con = connection();
 if(!$con) exit();
 include_once "header.php";
-if(!login()){
-    header("location: login.php");
-    exit();
-}
 ?>
 
           
